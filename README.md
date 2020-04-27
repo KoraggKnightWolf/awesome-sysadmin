@@ -77,14 +77,15 @@
 * [GNU Make](http://www.gnu.org/software/make/) - The most popular automation build tool for many purposes.
 * [Gradle](http://gradle.org/) - Another build automation system.
 * [Rake](https://github.com/ruby/rake) - Build automation tool similar to Make, written in and extensible in Ruby.
+* [Bolt](https://puppet.com/products/bolt) - You can use Bolt to run one-off tasks, scripts to automate the provisioning and management of some nodes, you can use Bolt to move a step beyond scripts, and make them shareable.
 
 ## Backups
 
-*Backup software.*
+*Backup software.* Also see [Restic's list of Linux backup software](https://github.com/restic/others).
 
 * [Amanda](http://www.amanda.org/) - Client-server model backup tool.
 * [Bareos](http://www.bareos.org/en/) - A fork of Bacula backup tool.
-* [BackupPC](http://backuppc.sourceforge.net/) - BackupPC is a high-performance system for backing up to disk.
+* [BackupPC](https://backuppc.github.io/backuppc/) - BackupPC is a high-performance system for backing up to disk.
 * [Backupninja](https://0xacab.org/riseuplabs/backupninja) - Lightweight, extensible meta-backup system.
 * [Barman](http://www.pgbarman.org) - Backup and Recovery Manager for disaster recovery of PostgreSQL servers.
 * [BorgBackup](https://github.com/borgbackup/borg) - A fork of [Attic](https://attic-backup.org) deduplicating backup program written in Python.
@@ -110,6 +111,7 @@
 * [EasyBuild](https://easybuild.readthedocs.org/en/latest/) - EasyBuild builds software and modulefiles for High Performance Computing (HPC) systems in an efficient way.
 * [environment-modules Lmod](https://www.tacc.utexas.edu/research-development/tacc-projects/lmod) - Lmod is a Lua based module system that easily handles the MODULEPATH Hierarchical problem.
 * [HPCBIOS](http://hpcbios.readthedocs.org/en/latest/) - HPCBIOS is an effort to setup a common, well-documented and reproducible, environment spanning across multiple HPC systems & sites, *inclusive* of documentation.
+* [Spack](https://spack.io/) - A flexible package manager that supports multiple versions, configurations, platforms, and compilers.
 
 ## ChatOps
 
@@ -129,7 +131,7 @@
 
 * [Chocolatey](https://chocolatey.org/) – Windows CLI package manager written in .NET/PS, based on [NuGet](https://www.nuget.org/).
 * [just-install](http://just-install.it/) – Python script for downloading and silently installing MSI files.
-* [OCS Inventory NG](http://www.ocsinventory-ng.org/en/) - Inventory, deployment and network scan.
+* [OCS Inventory NG](https://ocsinventory-ng.org/?lang=en) - Inventory, deployment and network scan.
 * [Opsi](http://www.opsi.org) (open PC server integration) - Client Management for Windows based on Debian.
 * [WAPT](https://dev.tranquil.it/wiki/WAPT_-_apt-get_pour_Windows/en) - Network-wide (un)installation, configuration and upgrades of Windows based software.
 * [WPKG](http://wpkg.org/) - Software deployment, upgrade and removal program for Windows.
@@ -205,7 +207,6 @@
 * [Pallet](http://palletops.com/) - Infrastructure definition, configuration and management via a Clojure DSL.
 * [Puppet](https://puppet.com/) - It's written in Ruby and uses Puppet's declarative language or a Ruby DSL.
 * [Salt](http://saltstack.com/) - It's written in Python.
-* [Slaughter](http://www.steve.org.uk/Software/slaughter/) - It's written in Perl.
 
 ## Continuous Integration & Continuous Deployment
 
@@ -213,7 +214,7 @@
 
 - [Buildbot](http://buildbot.net/) - Python-based toolkit for continuous integration. ([Source Code](https://github.com/buildbot/buildbot)) `GPL-2.0` `Python`
 - [CapsuleCD](https://analogj.github.io/capsulecd-slides/) - CD script for automating package/library releases (npm, cookbooks, gems, pip, jars, etc). ([Source Code](https://github.com/AnalogJ/capsulecd)) `MIT` `Go`
-- [Concourse](https://concourse.ci/) - Concourse is a CI tool that treats pipelines as first class objects and containerizes every step along the way. ([Demo](https://ci.concourse.ci/), [Source Code](https://github.com/concourse/concourse)) `Apache-2.0` `Go`
+- [Concourse](https://concourse-ci.org/) - Concourse is a CI tool that treats pipelines as first class objects and containerizes every step along the way. ([Demo](https://ci.concourse-ci.org/), [Source Code](https://github.com/concourse/concourse)) `Apache-2.0` `Go`
 - [drone](https://drone.io/) - Drone is a Continuous Delivery platform built on Docker, written in Go. ([Source Code](https://github.com/drone/drone)) `Apache-2.0` `Go`
 - [Factor](http://www.factor.io/) - Programmatically define and run workflows to connect configuration management, source code management, build, continuous integration, continuous deployment and communication tools. ([Source Code](https://github.com/factor-io/factor)) `MIT` `Ruby`
 - [GitLab CI](https://about.gitlab.com/gitlab-ci/) - Gitlab's built-in, full-featured CI/CD solution. ([Source Code](https://gitlab.com/gitlab-org/gitlab-ce) `MIT` `Ruby`
@@ -305,7 +306,9 @@
 
 *Domain management.*
 
+* [DnsControl](https://stackexchange.github.io/dnscontrol/) - Opinionated platform for seamlessly managing your DNS configuration across any number of DNS hosts, both in the cloud or in your own infrastructure.
 * [DomainMOD](https://domainmod.org) - Manage your domains and other internet assets in a central location.
+* [octoDNS](https://github.com/github/octodns) - Set of tools and patterns that make it easy to manage your DNS records across multiple providers.
 
 ## Editors
 
@@ -355,13 +358,14 @@
 * [Samba](https://www.samba.org/) – Active Directory and CIFS protocol implementation.
 * [BounCA](https://bounca.org/) - A personal SSL Key / Certificate Authority web-based tool for creating self-signed certificates.
 * [easy-rsa](https://github.com/OpenVPN/easy-rsa) - bash script to build and manage a PKI CA.
+* [Smallstep Certificates](https://smallstep.com/certificates/) - A private certificate authority (X.509 & SSH) and related tools for secure automated certificate management.
 
 ## IT Asset Management
 
 *IT Assets Management software.*
 
-* [GLPI](http://www.glpi-project.org/spip.php?lang=en) - Information Resource-Manager with an additional Administration Interface.
-* [OCS Inventory NG](http://www.ocsinventory-ng.org/en/) - Enables users to inventory their IT assets.
+* [GLPI](https://www.glpi-project.org/) - Information Resource-Manager with an additional Administration Interface.
+* [OCS Inventory NG](https://ocsinventory-ng.org/?lang=en) - Enables users to inventory their IT assets.
 * [OPSI](http://www.opsi.org) - Hardware and software inventory, deployment, and patching for Linux and Windows.
 * [RackTables](http://racktables.org/) - Datacenter and server room asset management like document hardware assets, network addresses, space in racks, networks configuration.
 * [Ralph](https://github.com/allegro/ralph) - Asset management, DCIM and CMDB system for large Data Centers as well as smaller LAN networks.
@@ -415,6 +419,7 @@
 * [Munin](http://munin-monitoring.org/) - Networked resource monitoring tool.
 * [Naemon](http://www.naemon.org/) - Network monitoring tool based on the Nagios 4 core with performance enhancements and new features.
 * [Nagios](https://www.nagios.org/) - Computer system, network and infrastructure monitoring software application.
+* [Netdata](https://www.netdata.cloud/) - Distributed, real-time, performance and health monitoring for systems and applications. Runs on Linux, FreeBSD, and MacOS.
 * [NetXMS](https://www.netxms.org/) - Open Source network and infrastructure monitoring and management. ([Source Code](https://github.com/netxms/netxms))
 * [Observium](http://www.observium.org/) - SNMP monitoring for servers and networking devices. Runs on linux.
 * [OMD](http://omdistro.org/) - The Open Monitoring Distribution.
@@ -457,7 +462,6 @@
   * [Dashing](http://dashing.io/) - Ruby gem that allows for rapid statistical dashboard development. An all HTML5 approach allows for big screen displays in data centers or conference rooms.
   * [Facette](http://facette.io) - Time series data visualization and graphing software written in Go.
   * [Freeboard](https://github.com/Freeboard/freeboard) - A damn-sexy front-end real-time dashboard for the internet of things. Transforms raw JSON into delicious UI.
-  * [Netdata](http://netdata.firehol.org/) - Real-time performance monitoring for Linux systems with plugin support.
 
 * Storage
   * [OpenTSDB](http://opentsdb.net/) - Store and server massive amounts of time series data without losing granularity.
@@ -473,7 +477,6 @@
 
 *Network configuration management tools.*
 
-* [GestióIP](http://www.gestioip.net/) - An automated web based IPv4/IPv6 IP Address Management tool.
 * [GNS3](https://www.gns3.com/) - Graphical network simulator that provides a variety of virtual appliances - ([Source Code](https://github.com/GNS3/gns3-gui/), [Documentation](https://docs.gns3.com/)) - `GPLv3`
 * [Oxidized](https://github.com/ytti/oxidized) - A modern take on network device configuration monitoring with web interface and GIT storage.
 * [phpIPAM](http://phpipam.net/) - Open source IP address management with [PowerDNS](https://www.powerdns.com/) integration.
@@ -504,6 +507,7 @@
   * [MongoDB](https://www.mongodb.org/) - Another document-oriented database system.
   * [RavenDB](http://ravendb.net/) - Document based database with ACID/Transactional features.
   * [RethinkDB](http://www.rethinkdb.com/) - Distributed document store database, focuses on JSON.
+  * [eXist-DB] (Https://www.exist-db.org/) - Open Source XML Database
 * Graph
   * [FlockDB](https://github.com/twitter/flockdb) - Twitter's distributed, fault-tolerant graph database.
   * [Neo4j](http://neo4j.com/) - Graph database.
@@ -582,6 +586,7 @@ Comparison of NoSQL servers: http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-v
 * [System Status Dashboard (SSD)](http://www.system-status-dashboard.com/) - Overview about an organization's infrastructure health status.
 * [Staytus](http://staytus.co/) - Staytus is a complete solution for publishing the latest information about any issues with your web applications, networks or services.
 * [vigil](https://github.com/valeriansaliou/vigil) -  Microservices Status Page. Monitors a distributed infrastructure and sends alerts to Slack. Written in Rust.
+* [Statping](https://github.com/hunterlong/statping) - Status page system written in Go.
 
 ## Troubleshooting
 
@@ -622,6 +627,7 @@ Comparison of NoSQL servers: http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-v
 * [QEMU](http://www.qemu.org/) - QEMU is a generic machine emulator and virtualizer.
 * [Vagrant](https://www.vagrantup.com/) - Tool for building complete development environments.
 * [VirtualBox](https://www.virtualbox.org/) - Virtualization product from Oracle Corporation.
+* [XCP-ng](http://www.xcp-ng.org/) - Based on Citrix XenServer, XCP-ng is a fully open source virtualization platform.
 * [Xen](http://www.xenproject.org/) - Virtual machine monitor for 32/64 bit Intel / AMD (IA 64) and PowerPC 970 architectures.
 * [XenServer](http://xenserver.org/) - Turnkey virtualization platform based on CentOS distribution, using Xen and an extended toolstack/API.
 
@@ -636,6 +642,7 @@ Comparison of NoSQL servers: http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-v
 * [sshuttle](https://github.com/sshuttle/sshuttle) - Poor man's VPN.
 * [strongSwan](https://www.strongswan.org/) - Complete IPsec implementation for Linux.
 * [tinc](http://www.tinc-vpn.org/) - Distributed p2p VPN.
+* [WireGuard](https://www.wireguard.com/) - Very fast VPN based on elliptic curve and public key crypto. Linux only (2017); other clients in development.
 
 ## Web
 
